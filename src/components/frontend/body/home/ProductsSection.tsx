@@ -21,14 +21,14 @@ const ProductsSection = () => {
       </div>
       {/* Product Card Section */}
       <div className="flex gap-6 flex-wrap mt-2">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard signal={false} />
+            <ProductCard signal={false} />
+            <ProductCard signal={false} />
+            <ProductCard signal={false} />
+            <ProductCard signal={false} />
+            <ProductCard signal={false} />
+            <ProductCard signal={false} />
+            <ProductCard signal={false} />
       </div>
     </div>
   )
